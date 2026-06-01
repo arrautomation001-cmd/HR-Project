@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #f1decb;
+  --caramel: #c28958;
+  --brown: #8c5c3f;
+  --dark-brown: #5a3730;
+
+  --background: #f1decb;
+  --foreground: #5a3730;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
