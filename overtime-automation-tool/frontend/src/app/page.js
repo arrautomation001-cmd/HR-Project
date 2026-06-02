@@ -52,7 +52,7 @@ export default function Home() {
       formData.append("file", file);
 
       const response = await axios.post(
-        "http://localhost:5000/api/upload",
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/upload`,
         formData
       );
 
